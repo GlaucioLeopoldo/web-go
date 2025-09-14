@@ -32,5 +32,6 @@ func main() {
 		http.Error(w, "Page Not Found", http.StatusNotFound)
 	})
 	fmt.Println("Start the server on :8000...")
+	fmt.Println("Start the server on :8000...")
 	http.ListenAndServe(":8000", rtr)
 }
